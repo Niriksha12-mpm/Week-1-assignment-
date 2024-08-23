@@ -1,0 +1,17 @@
+Choose a python integrated development  environment from the following option :visual Studio  code or Jupiter notebook
+
+
+
+
+Visual Studio Code (VS Code)
+- *Versatility*: VS Code is a full-fledged code editor that supports multiple languages and can be used for a variety of development tasks beyond just Python, such as web development, data analysis, and more.
+- *Integrated Terminal*: It includes an integrated terminal, which allows you to run your Python scripts directly from the editor.
+- *Extensions*: You can install extensions like the Python extension to enhance coding with features like IntelliSense, debugging, and linting.
+- *Version Control*: Built-in support for Git makes it easier to manage version control directly from the editor.
+- *Code Management*: Better for managing larger codebases with multiple files and directories.
+
+ Jupyter Notebook
+- *Interactive Computing*: Ideal for data science, machine learning, and any workflow where you want to write and execute code in chunks, view immediate outputs, and include rich text, equations, and visualizations alongside your code.
+- *Visualization*: Directly integrates with libraries like Matplotlib, Seaborn, and Plotly, making it easier to visualize data in real-time.
+- *Ease of Use*: Simple and intuitive interface, especially for those focusing on analysis rather than complex software development.
+- *Documentation*: Great for creating tutorials, reports, and sharing notebooks with others, as it combines code with markdown text.
