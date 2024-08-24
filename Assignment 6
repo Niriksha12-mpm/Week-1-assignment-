@@ -1,0 +1,66 @@
+Install a Python library of your choice within your Colab notebook (e.g., NumPy, Pandas, Matplotlib). 
+Write code to demonstrate the usage of the installed library. 
+Perform a basic operation or visualization. 
+Invite a classmate or friend to collaborate on your Colab notebook. 
+Provide their email address to send an invitation. 
+Collaborate on a simple Python code project or data analysis task within the notebook. 
+Save your Colab notebook to your Google Drive. 
+Share the saved notebook with your instructor or a peer, allowing them to view or comment on your work.
+
+
+Step by step procedure
+
+Step 1: Install a Python Library
+To install a library, use the `pip` command in a Colab notebook cell. Let's install `Matplotlib` as an example:
+
+```python
+!pip install matplotlib
+```
+
+Step 2: Demonstrate the Usage of the Installed Library
+After installing `Matplotlib`, let's create a simple plot:
+
+```python
+import matplotlib.pyplot as plt
+
+# Basic data
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 25, 30, 40]
+
+# Create a plot
+plt.plot(x, y)
+plt.title("Simple Line Plot")
+plt.xlabel("X Axis")
+plt.ylabel("Y Axis")
+plt.show()
+```
+
+ Step 3: Invite a Classmate or Friend to Collaborate
+To invite someone to collaborate:
+
+1. Click the "Share" button in the upper-right corner of your Colab notebook.
+2. Enter the email address of your classmate or friend.
+3. Set their permissions (e.g., "Can edit") and click "Send".
+
+ Step 4: Collaborate on a Simple Python Code Project
+You can work together with your classmate or friend to add more features to the notebook, such as:
+
+- Adding more data visualizations.
+- Performing data analysis using `Pandas`.
+- Implementing a simple machine learning model.
+
+Step 5: Save the Colab Notebook to Google Drive
+Your Colab notebook is automatically saved to your Google Drive. You can also manually save it by:
+
+1. Going to `File` -> `Save a copy in Drive`.
+2. Renaming the file if needed.
+
+Step 6: Share the Saved Notebook
+To share the saved notebook with your instructor or peer:
+
+1. Open your Google Drive.
+2. Find the saved Colab notebook.
+3. Right-click on the notebook and select "Share".
+4. Enter the email address of the person you want to share it with.
+5. Set their permissions (e.g., "Can view" or "Can comment").
+6. Click "Send".
