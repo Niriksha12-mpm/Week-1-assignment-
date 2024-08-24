@@ -1,0 +1,74 @@
+Virtual Environment Setup.Explain the concept of a virtual environmentin Python. 
+Why is it important, especially in data science projects? 
+Create a virtual environment named "ml_env" using the venv module (for Python 3.3 and later). 
+Activate the virtual environment and install a Python library of your choice (e.g., NumPy) within this environment. 
+Write a Python script that imports the library and performs a basic operation (e.g., creating an array or matrix).
+
+
+ Concept of a Virtual Environment in Python
+
+A *virtual environment* in Python is an isolated environment that allows you to manage dependencies for different projects independently. Each virtual environment has its own Python interpreter and libraries, ensuring that the packages used in one project do not affect another.
+
+
+ Importance of Virtual Environments in Data Science Projects
+
+In data science, managing dependencies is crucial because different projects may require different versions of libraries. For instance, one project might need TensorFlow 1.x, while another needs TensorFlow 2.x. Without virtual environments, installing a new package version could break existing projects. Virtual environments solve this by allowing each project to maintain its own dependencies, avoiding conflicts.
+
+Steps to Create and Use a Virtual Environment
+
+1. *Create a Virtual Environment:*
+   - Open a terminal or command prompt.
+   - Navigate to the directory where you want to create your project.
+   - Run the following command to create a virtual environment named `ml_env`:
+     ```bash
+     python3 -m venv ml_env
+     ```
+
+2. *Activate the Virtual Environment:*
+   - On *Windows*:
+     ```bash
+     .\ml_env\Scripts\activate
+     ```
+   - On *macOS/Linux*:
+     ```bash
+     source ml_env/bin/activate
+     ```
+
+   After activation, your terminal prompt will change to indicate that you are now working within the virtual environment.
+
+3. *Install a Python Library (e.g., NumPy):*
+   - With the virtual environment activated, install NumPy by running:
+     ```bash
+     pip install numpy
+     ```
+
+4. *Write a Python Script:*
+
+   Create a Python script named `basic_operation.py`:
+
+   ```python
+   import numpy as np
+
+   # Create a 2x2 matrix
+   matrix = np.array([[1, 2], [3, 4]])
+
+   # Perform a basic operation: calculate the determinant
+   determinant = np.linalg.det(matrix)
+
+   print("Matrix:")
+   print(matrix)
+   print(f"Determinant: {determinant}")
+   ```
+
+5. *Run the Script:*
+
+   With the virtual environment still activated, run the script:
+   ```bash
+   python basic_operation.py
+   ```
+
+ Explanation of the Script
+
+-  NumPy Import: The script imports the NumPy library, which is installed only within the `ml_env` environment.
+- Matrix Creation: A 2x2 matrix is created using `np.array()`.
+- *Basic Operation:* The script calculates the determinant of the matrix using `np.linalg.det()` and prints the result.
